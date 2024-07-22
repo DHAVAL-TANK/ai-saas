@@ -36,45 +36,17 @@ In this project, we will build a sophisticated AI SaaS platform integrating the 
 ## Getting Started
 Follow these steps to set up and run the project locally:
 
-1. **Clone the repository**:
+1. **Steps to run**:
    ```bash
-   git clone https://github.com/yourusername/ai-saas-platform.git
-   cd ai-saas-platform
-Install dependencies:
+   git clone https://github.com/DHAVAL-TANK/ai-saas.git 
+   npm install
+   npm run dev
 
-bash
-Copy code
-npm install
-Set up environment variables:
-Create a .env file in the root directory and add the necessary environment variables. Refer to the .env.example file for guidance.
 
-Run the development server:
-
-bash
-Copy code
-npm run dev
 Open the application:
 Visit http://localhost:3000 in your browser.
 
-Project Structure
-java
-Copy code
-ai-saas-platform/
-├── public/
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── styles/
-│   └── utils/
-├── .env
-├── .gitignore
-├── package.json
-└── README.md
-Contributing
-We welcome contributions to improve this project. Please fork the repository and create a pull request with your changes. Ensure that your code follows the project's coding standards and includes relevant tests.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
 Acknowledgements
 Special thanks to the creators of Next.js, React, Tailwind CSS, Prisma, MySQL, Clerk, Stripe, OpenAI, and Replicate AI for their amazing tools and frameworks.
